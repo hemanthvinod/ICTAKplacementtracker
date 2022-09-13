@@ -1,0 +1,34 @@
+// qualificatioon: any;
+  // course: any;
+  // filterList = {
+  //   qualification: ['Btech', 'Phd', 'MCA'],
+  //   course: ['Mean Stack', 'mern stack'],
+  // };
+
+
+
+
+// copyStudents = this.students;
+
+  // filterChange(appliedfilters: any) {
+  //   this.students = this.copyStudents;
+  //   this.qualificatioon = appliedfilters.appliedFilterValues.qualification;
+  //   this.course = appliedfilters.appliedFilterValues.course;
+
+  //   if (this.qualificatioon) {
+  //     this.students = this.students.filter(
+  //       (item: any) => item.qualification === this.qualificatioon
+  //     );
+  //   }
+
+  //   if (this.course) {
+  //     this.students = this.students.filter(
+  //       (item: any) => item.course === this.course
+  //     );
+  //   }
+  // }
+
+
+
+ <!-- <app-filter [list]="filterList" (onFilterChange)="filterChange($event)">
+  </app-filter> -->
